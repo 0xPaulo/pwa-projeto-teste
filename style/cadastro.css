@@ -27,22 +27,24 @@ body {
   width: 100%;
   border-radius: 0px 63px 0px 121px;
   background: linear-gradient(91deg, #f0cffc 0%, #36cf8f 100%);
-  height: 14.3125rem;
+  height: 42%;
   flex-shrink: 0;
 }
 
 .container-cadastro h1 {
-  margin-top: 3.125rem;
+  margin-top: 2.1875rem;
   margin-bottom: 6.25rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   max-width: 13.875rem;
+  min-width: 13.875rem;
+  max-height: 45%;
   color: #101629;
   font-family: Roboto;
   font-size: 1.875rem;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 100%; 
 }
 
 .form-container {
