@@ -27,20 +27,20 @@ body {
   width: 100%;
   border-radius: 0px 63px 0px 121px;
   background: linear-gradient(91deg, #f0cffc 0%, #36cf8f 100%);
-  height: 229px;
+  height: 14.3125rem;
   flex-shrink: 0;
 }
 
 .container-cadastro h1 {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 3.125rem;
+  margin-bottom: 6.25rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  max-width: 222px;
+  max-width: 13.875rem;
   color: #101629;
   font-family: Roboto;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
   line-height: 100%;
 }
@@ -49,29 +49,29 @@ body {
   display: grid;
   justify-content: center;
   width: 100%;
-  gap: 22px;
+  gap: 1.375rem;
 }
 
 input {
   border: 1px solid var(--borda);
   color: #101629;
   font-family: Alata;
-  font-size: 14px;
-  padding: 10px;
-  letter-spacing: 1.05px;
-  border-radius: 12px;
-  width: 234px;
+  font-size: 0.875rem;
+  padding: 0.625rem;
+  letter-spacing: 0.0656rem;
+  border-radius: 0.75rem;
+  width: 14.625rem;
 }
 .criar-conta {
   font-family: "Roboto", sans-serif;
   background-color: var(--verde);
   width: 100%;
   margin-top: 20%;
-  height: 47px;
-  border-radius: 12px;
+  height: 2.9375rem;
+  border-radius: 0.75rem;
   color: #101629;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: 100.5%;
