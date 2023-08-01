@@ -2,6 +2,7 @@
 @import url(noticia.css);
 @import url(cadastro.css);
 @import url(login.css);
+@import url(categorias.css);
 
 html{
   margin: 0px;
