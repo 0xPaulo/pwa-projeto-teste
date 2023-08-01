@@ -53,6 +53,7 @@ input {
   letter-spacing: 0.0656rem;
   border-radius: 0.75rem;
   width: 14.625rem;
+  background-color: transparent;
 }
 input:focus {
   border-color: var(--verde);

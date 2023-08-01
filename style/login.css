@@ -41,6 +41,7 @@ input {
   padding: 10px;
   letter-spacing: 1.05px;
   border-radius: 12px;
+  background-color: transparent;
   width: 234px;
 }
 input:focus {
