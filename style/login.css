@@ -7,11 +7,6 @@ font-family: 'Roboto', sans-serif; */
   --verde: #36cf8f;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   width: 404px;
   height: 634px;
@@ -48,6 +43,10 @@ input {
   border-radius: 12px;
   width: 234px;
 }
+input:focus {
+  border-color: var(--verde);
+  outline: none;
+}
 .botao-login {
   font-family: "Roboto", sans-serif;
   background-color: var(--verde);
@@ -63,12 +62,17 @@ input {
   line-height: 100.5%;
   border: 0;
 }
-.container-cadastro-link p,
-a {
-  margin-top: 84px;
+.footer-login a,p {
   display: grid;
   justify-content: center;
-  width: 100%;
+}
+.footer-login p{
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.a-login {
+  text-decoration: none;
 }
 .cadastro-link {
   text-decoration: none;

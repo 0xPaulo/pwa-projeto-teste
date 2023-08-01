@@ -1,0 +1,43 @@
+/* font-family: 'Alata', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+:root {
+  --fundo: #dfe8ea;
+  --borda: rgba(16, 22, 41, 0.5);
+  --verde: #36cf8f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-family: "Alata", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 25px;
+}
+.header-menu h3 {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.header-menu h2 {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.nome-pontos h2 {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.nome-pontos h3 {
+  font-size: 15px;
+
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+.nome-pontos {
+  text-align: end;
+}
