@@ -3,6 +3,9 @@
 @import url(cadastro.css);
 @import url(login.css);
 
+html{
+  margin: 0px;
+}
 body {
   background-color: var(--fundo);
   margin: 0;
