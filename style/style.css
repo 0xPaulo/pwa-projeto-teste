@@ -4,11 +4,19 @@
 @import url(login.css);
 @import url(categorias.css);
 
-html{
+html {
   margin: 0px;
 }
 body {
   background-color: var(--fundo);
   margin: 0;
   padding: 0;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
