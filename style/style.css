@@ -3,6 +3,7 @@
 @import url(cadastro.css);
 @import url(login.css);
 @import url(categorias.css);
+@import url(fruta-do-dia.css);
 
 html {
   margin: 0px;
@@ -19,4 +20,7 @@ button,
 select,
 a {
   -webkit-tap-highlight-color: transparent;
+}
+a:visited {
+  color: inherit;
 }
