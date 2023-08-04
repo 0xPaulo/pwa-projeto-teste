@@ -12,7 +12,7 @@
   margin: 0px 20px;
   gap: 5vw;
 }
-.fruta1 {
+.fruta {
   justify-self: end;
   width: 120px;
   height: 120px;
@@ -23,7 +23,7 @@
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
   position: relative;
 }
-.fruta1 img {
+.fruta img {
   mix-blend-mode: multiply;
   width: 89px;
   height: 89px;
@@ -31,82 +31,7 @@
   top: 12%;
   left: 9%;
 }
-.fruta1 .heart-cheio {
-  height: 18px;
-  position: relative;
-  top: 10px;
-  left: 55px;
-}
-.fruta2 {
-  justify-self: start;
-  width: 120px;
-  height: 120px;
-  margin: 0;
-  border-radius: 12px;
-  border-radius: 12px;
-  background: linear-gradient(90deg, #beadef 0%, #fff 100%);
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
-  position: relative;
-}
-.fruta2 img {
-  mix-blend-mode: multiply;
-  width: 89px;
-  height: 89px;
-  position: absolute;
-  top: 12%;
-  left: 9%;
-}
-.fruta2 .heart-vazio {
-  height: 18px;
-  position: relative;
-  top: 10px;
-  left: 55px;
-}
-.fruta3 {
-  justify-self: end;
-  width: 120px;
-  height: 120px;
-  margin: 0;
-  border-radius: 12px;
-  border-radius: 12px;
-  background: linear-gradient(90deg, #ffae9c 0%, #fff 100%);
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
-  position: relative;
-}
-.fruta3 img {
-  mix-blend-mode: multiply;
-  width: 89px;
-  height: 89px;
-  position: absolute;
-  top: 12%;
-  left: 9%;
-}
-.fruta3 .heart-vazio {
-  height: 18px;
-  position: relative;
-  top: 10px;
-  left: 55px;
-}
-.fruta4 {
-  justify-self: start;
-  width: 120px;
-  height: 120px;
-  margin: 0;
-  border-radius: 12px;
-  border-radius: 12px;
-  background: linear-gradient(90deg, #CCF8D8 0%, #FFF 100%);
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
-  position: relative;
-}
-.fruta4 img {
-  mix-blend-mode: multiply;
-  width: 89px;
-  height: 89px;
-  position: absolute;
-  top: 12%;
-  left: 9%;
-}
-.fruta4 .heart-vazio {
+.fruta .heart-cheio {
   height: 18px;
   position: relative;
   top: 10px;

@@ -4,14 +4,24 @@
 @import url(login.css);
 @import url(categorias.css);
 @import url(fruta-do-dia.css);
+@import url(footer.css);
 
 html {
   margin: 0px;
+  /* height: -webkit-fill-available; */
 }
 body {
+  display: flex;
+  flex-direction: column;
   background-color: var(--fundo);
   margin: 0;
   padding: 0;
+  height: 100vh;
+  /* height: -webkit-fill-available; */
+}
+main{
+  flex: 1;
+  overflow: scroll;
 }
 
 input,
