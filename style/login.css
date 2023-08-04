@@ -12,12 +12,11 @@ font-family: 'Roboto', sans-serif; */
   grid-template-columns: 1fr 244px 1fr;
   text-align: right;
   justify-content: center;
+  overflow: hidden;
 }
 .lidar-div h1 {
-  overflow: hidden;
-  font-size: 48px;
+  font-size: 3rem;
   grid-column: 2;
-  overflow: hidden;
 }
 
 .form-container {
