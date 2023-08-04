@@ -1,0 +1,31 @@
+@media (max-width: 428px) {
+  .container-frutas {
+    gap: 37px;
+  }
+}
+@media (max-width: 414px) {
+  .container-frutas {
+    gap: 37px;
+  }
+}
+@media (max-width: 412px) {
+  .container-frutas {
+    gap: 35px;
+  }
+}
+@media (max-width: 393px) {
+  .container-frutas {
+    gap: 32px;
+  }
+}
+@media (max-width: 375px) {
+  .container-frutas {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container-frutas {
+    gap: 22px;
+  }
+}
